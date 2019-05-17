@@ -1,0 +1,48 @@
+baseurl = "https://bluelife.at/"
+languageCode = "en-US"
+title = "bluelife"
+theme = "natrium"
+preserveTaxonomyNames = true
+rssLimit = 10
+paginate = 10
+pygmentsCodefences = true
+pygmentsStyle = "native"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[permalinks]
+  posts = "/:slug/"
+  page = "/:slug/"
+
+[[menu.main]]
+  name = "Network"
+  weight = -120
+  identifier = "network"
+  url = "/network/"
+
+[[menu.main]]
+  name = "Code"
+  weight = -110
+  identifier = "code"
+  url = "https://code.bluelife.at/decke/"
+
+[[menu.main]]
+  name = "Contact"
+  weight = -100
+  identifier = "contact"
+  url = "/contact/"
+
+[[menu.main]]
+  name = "About"
+  weight = -90
+  identifier = "about"
+  url = "/about/"
+
+[params]
+  description = ""
+
+  [params.logo]
+  url = "bluelife_logo.png"
+  alt = "Logo"

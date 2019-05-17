@@ -1,0 +1,37 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ .Hugo.Generator }}
+
+{{ if eq .URL "/" }}
+<title>{{ .Title }}</title>
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:type" content="website">
+{{ else }}
+<title>{{ .Title }} - {{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+{{ end }}
+
+{{ if eq .URL "/" }}
+<meta property="description" content="{{ .Site.Params.description }}">
+{{ else }}
+  {{ if .Description }}
+  <meta property="description" content="{{ .Description }}">
+  {{ end }}
+{{ end }}
+
+{{ if .Keywords }}
+<meta property="keywords" content ="{{ delimit .Keywords ", " }}">
+{{ end }}
+
+{{ if .RSSLink }}
+<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
+
+{{ $stylem := resources.Get "css/main.css" }}
+{{ $stylef := resources.Get "css/fonts.css" }}
+{{ $styleo := resources.Get "css/override.css" }}
+{{ $style := slice $stylem $stylef $styleo | resources.Concat "css/style.css" | minify }}
+
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.png">
