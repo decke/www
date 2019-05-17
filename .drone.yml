@@ -2,6 +2,11 @@ kind: pipeline
 name: default
 
 steps:
+- name: template
+  image: docker:git
+  commands:
+  - git submodule update --recursive --remote
+
 - name: build
   image: cbrgm/drone-hugo
   settings:
