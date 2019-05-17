@@ -3,7 +3,7 @@ name: default
 
 steps:
 - name: template
-  image: docker:git
+  image: drone/git
   commands:
   - git submodule update --recursive --remote
 
