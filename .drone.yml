@@ -2,9 +2,20 @@ kind: pipeline
 name: default
 
 steps:
-- name: netlify
+- name: build
+  image: plugins/hugo
+  settings:
+    hugo_version: 0.55
+    pull: always
+    url: https://www-dev.bluelife.at/
+    validate: true
+
+- name: deploy
   image: lucap/drone-netlify
-  token:
-    from_secret: netlify-token
-  site_id: 947227a4-ee37-4adb-ac59-fca88cb38ba7
-  site_name: www-dev.bluelife.at
+  settings:
+    token:
+      from_secret: netlify-token
+    site_id:
+      from_secret: netlify-siteid-dev
+    domain: www-dev.bluelife.at
+    path: ./public
