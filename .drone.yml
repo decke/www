@@ -1,0 +1,10 @@
+kind: pipeline
+name: default
+
+steps:
+- name: netlify
+  image: lucap/drone-netlify
+  token:
+    from_secret: netlify-token
+  site_id: affectionate-booth-d45c19
+  site_name: www-dev.bluelife.at
