@@ -6,5 +6,5 @@ steps:
   image: lucap/drone-netlify
   token:
     from_secret: netlify-token
-  site_id: affectionate-booth-d45c19
+  site_id: 947227a4-ee37-4adb-ac59-fca88cb38ba7
   site_name: www-dev.bluelife.at
