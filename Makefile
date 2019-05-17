@@ -1,13 +1,10 @@
-build: themes/natrium
+build:
 	hugo
 
 clean:
-	rm -rf public/*
+	rm -rf public/* resources/*
 
 release:
 	hugo --minify
-
-themes/natrium:
-	git clone https://github.com/mobybit/hugo-natrium-theme themes/natrium
 
 .PHONY:	build clean release
