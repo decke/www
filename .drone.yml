@@ -9,6 +9,7 @@ steps:
   image: drone/git
   commands:
   - git submodule update --recursive --remote
+  - find .
 
 - name: build
   image: cbrgm/drone-hugo
