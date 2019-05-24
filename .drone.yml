@@ -5,8 +5,8 @@ clone:
   depth: 50
 
 steps:
-- name: template
-  image: drone/git
+- name: submodules
+  image: docker:git
   commands:
   - git submodule update --recursive --remote
   - find .
