@@ -49,7 +49,7 @@ Over time I have created quite a few new FreeBSD Ports and worked on many more s
 * [Composer](https://github.com/composer/composer/commit/70314f3570247ce9a62934997ea449ec44cd635b): Fix Repository support  for Subversion 1.8 (2017)
 * [Helma](https://github.com/helma-org/helma): update for Jetty 6.1.x (2009)
 * [cpupowerd](http://cpupowerd.sourceforge.net/): FreeBSD support and port (2008)
-* more contributions on [<img alt='' style='margin: 0' src='https://www.openhub.net/accounts/decke/widgets/account_tiny?format=gif&amp;ref=sample'> openhub.net/accounts/decke](https://www.openhub.net/accounts/decke)
+* more contributions on [openhub.net/accounts/decke](https://www.openhub.net/accounts/decke)
 
 ## Code
 
