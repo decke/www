@@ -11,13 +11,13 @@ steps:
   - git clone --recursive https://code.bluelife.at/decke/www.git /drone/src
   - git -c advice.detachedHead=false checkout $DRONE_COMMIT
 
-- name: build
+- name: build-dev
   image: chaosbunker/drone-hugo:0.55.5
   settings:
     url: https://www-dev.bluelife.at/
     validate: true
 
-- name: deploy
+- name: deploy-dev
   image: lucap/drone-netlify
   settings:
     token:
@@ -27,7 +27,16 @@ steps:
     domain: www-dev.bluelife.at
     path: ./public
 
-- name: production
+- name: build-prod
+  image: chaosbunker/drone-hugo:0.55.5
+  settings:
+    url: https://www.bluelife.at/
+    validate: true
+  when:
+    branch:
+      - master
+
+- name: deploy-prod
   image: lucap/drone-netlify
   settings:
     token:
