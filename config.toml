@@ -46,3 +46,18 @@ pygmentsStyle = "native"
   [params.logo]
   url = "bluelife_logo.png"
   alt = "Logo"
+
+[mediaTypes]
+  [mediaTypes."text/netlify"]
+    suffixes = []
+    delimiter = ""
+
+[outputs]
+  home = [ "HTML", "RSS", "HEADERS" ]
+
+[outputFormats]
+  [outputFormats.HEADERS]
+    mediatype = "text/netlify"
+    baseName = "_headers"
+    isPlainText = true
+    notAlternative = true
