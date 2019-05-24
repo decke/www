@@ -9,7 +9,8 @@ steps:
   image: docker:git
   commands:
   - git clone https://code.bluelife.at/decke/www.git
-  - git checkout $DRONE_COMMIT
+  - cd /drone/src && git checkout $DRONE_COMMIT
+  - pwd
   - find .
 
 - name: build
