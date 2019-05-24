@@ -8,11 +8,8 @@ steps:
 - name: clone
   image: docker:git
   commands:
-  - pwd
-  - git clone https://code.bluelife.at/decke/www.git /drone/src
-  - pwd
+  - git clone --recursive https://code.bluelife.at/decke/www.git /drone/src
   - git checkout $DRONE_COMMIT
-  - pwd
   - find .
 
 - name: build
