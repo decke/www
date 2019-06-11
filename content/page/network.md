@@ -3,7 +3,7 @@ title: Network
 description: "bluelife network"
 ---
 
-The infrastructure for the network is designed for security and privacy and has evolved over the years. Some parts of it are in the cloud already and some are provided by external services. All components and services have been chosen carefully.
+The infrastructure for the network is designed for security and privacy and has evolved over the years. Some parts of it are in the cloud already and some are provided by external services but the aim is to have all important data and services locally available. All components and services have been chosen carefully.
 
 ## Architecture
 
@@ -14,7 +14,7 @@ The infrastructure for the network is designed for security and privacy and has 
 
 * Registrar: [Gandi.net](https://www.gandi.net/)
 * auth. DNS: [Google Cloud DNS](https://cloud.google.com/dns/) + DNSSEC
-* DNS resolver: [Unbound](https://www.unbound.net/)
+* DNS resolver: [Unbound](https://www.unbound.net/) + [Stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby)
 * SSL Certs: [Let's Encrypt](https://letsencrypt.org/) via [acme.sh](https://acme.sh)
 
 
@@ -22,6 +22,7 @@ The infrastructure for the network is designed for security and privacy and has 
 
 * IPv6: [Hurricane Electric](https://ipv6.he.net/)
 * Hosting: [netcup](https://www.netcup.de/)
+* Blog Hosting: [netlify](https://www.netlify.com)
 * OS: [FreeBSD](https://www.freebsd.org/)
 * VPN: [WireGuard](https://wireguard.com/)
 * Virtualisation: [bhyve](http://bhyve.org/) via [vm-bhyve](https://github.com/churchers/vm-bhyve)
@@ -29,6 +30,7 @@ The infrastructure for the network is designed for security and privacy and has 
 * Backup: [ssbt](https://code.bluelife.at/decke/ssbt/)
 * NTP: [chrony](https://chrony.tuxfamily.org/)
 * Firewall: [pf](https://www.freebsd.org/doc/handbook/firewalls-pf.html)
+* SMTP: [smtprelay](https://code.bluelife.at/decke/smtprelay)
 
 
 ## Hardware
@@ -43,4 +45,5 @@ The infrastructure for the network is designed for security and privacy and has 
 * Code: [gitea](https://gitea.io/)
 * Feed Reader: [miniflux](https://miniflux.app/)
 * File sync: [syncthing](https://syncthing.net/)
+* Contacts/Calendar: [radicale](https://radicale.org/)
 * Web/Blog: [Hugo](https://gohugo.io/)
