@@ -62,4 +62,17 @@ CvqACIoNjy4VTHrD/0o5u3WjXreE0ddC
 <a id="privacy"></a>
 ## Privacy Policy
 
-My privacy policy is Privacy by Design. This means I do not collect any of your data nor share it with anyone. The side does not use cookies, does not track you, does not import external content, does not keep logfiles, does not integrate any of those social stuff but enforces strong encryption.
+My privacy policy is Privacy by Design. This means that this site is engineered to be static and stupid simple. So this site:
+
+* does not collect any of your data nor share it with anyone
+* does not use cookies
+* does not track you
+* does not load external content
+* does not integrate any of those social stuff
+* but enforces strong encryption.
+
+The site is hosted on Netlify.com and they
+
+* do keep access logs including the IP addresses for less than 30 days
+
+and I really hope that's okay for you.
