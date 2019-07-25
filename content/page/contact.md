@@ -9,6 +9,9 @@ description: "contact details"
 
 
 ## PGP-Key
+
+You can also get my key from [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/39242DE3BD34BB70529C03D24DD88C3F9F3B8333).
+
 <pre>
 pub   rsa2048/4DD88C3F9F3B8333 2015-05-05 [SC] [expires: 2021-05-01]
       Key fingerprint = 3924 2DE3 BD34 BB70 529C  03D2 4DD8 8C3F 9F3B 8333
