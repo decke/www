@@ -69,7 +69,7 @@ My privacy policy is Privacy by Design. This means that this site is engineered 
 * does not track you
 * does not load external content
 * does not integrate any of those social stuff
-* but enforces strong encryption.
+* but supports strong encryption.
 
 The site is hosted on Netlify.com and they
 
