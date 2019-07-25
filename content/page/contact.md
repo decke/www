@@ -9,6 +9,9 @@ description: "contact details"
 
 
 ## PGP-Key
+
+You can also get my key from [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/39242DE3BD34BB70529C03D24DD88C3F9F3B8333).
+
 <pre>
 pub   rsa2048/4DD88C3F9F3B8333 2015-05-05 [SC] [expires: 2021-05-01]
       Key fingerprint = 3924 2DE3 BD34 BB70 529C  03D2 4DD8 8C3F 9F3B 8333
@@ -59,4 +62,17 @@ CvqACIoNjy4VTHrD/0o5u3WjXreE0ddC
 <a id="privacy"></a>
 ## Privacy Policy
 
-My privacy policy is Privacy by Design. This means I do not collect any of your data nor share it with anyone. The side does not use cookies, does not track you, does not import external content, does not keep logfiles, does not integrate any of those social stuff but enforces strong encryption.
+My privacy policy is Privacy by Design. This means that this site is engineered to be static and stupid simple. So this site:
+
+* does not collect any of your data nor share it with anyone
+* does not use cookies
+* does not track you
+* does not load external content
+* does not integrate any of those social stuff
+* but supports strong encryption.
+
+The site is hosted on Netlify.com and they
+
+* do keep access logs including the IP addresses for less than 30 days
+
+and I really hope that's okay for you.

@@ -12,7 +12,7 @@ steps:
   - git -c advice.detachedHead=false checkout $DRONE_COMMIT
 
 - name: build-dev
-  image: chaosbunker/drone-hugo:0.55.5
+  image: chaosbunker/drone-hugo
   settings:
     url: https://www-dev.bluelife.at/
     validate: true
