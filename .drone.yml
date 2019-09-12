@@ -28,7 +28,7 @@ steps:
     path: ./public
 
 - name: build-prod
-  image: chaosbunker/drone-hugo:0.55.6
+  image: chaosbunker/drone-hugo:0.57.2
   settings:
     url: https://www.bluelife.at/
     validate: true
