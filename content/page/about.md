@@ -53,5 +53,4 @@ Over time I have created quite a few new FreeBSD Ports and worked on many more s
 
 ## Code
 
-* [github.com/decke](https://github.com/decke)
 * [github.com/decke](https://github.com/decke/)
