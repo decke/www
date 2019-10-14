@@ -6,6 +6,6 @@ clean:
 
 deploy:
 	git submodule update --init themes/natrium
-	hugo -b $URL --minify
+	hugo -b $(URL) --minify
 
 .PHONY:	build clean deploy
