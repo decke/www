@@ -7,4 +7,8 @@ clean:
 release:
 	hugo --minify
 
-.PHONY:	build clean release
+ci:
+	git submodule update --init themes/natrium
+	hugo --minify
+
+.PHONY:	build ci clean release
