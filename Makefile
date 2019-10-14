@@ -4,11 +4,8 @@ build:
 clean:
 	rm -rf public/* resources/*
 
-release:
-	hugo --minify
-
-ci:
+deploy:
 	git submodule update --init themes/natrium
-	hugo --minify
+	hugo -b $URL --minify
 
-.PHONY:	build ci clean release
+.PHONY:	build clean deploy
