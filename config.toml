@@ -26,7 +26,7 @@ pygmentsStyle = "native"
   name = "Code"
   weight = -110
   identifier = "code"
-  url = "https://code.bluelife.at/decke/"
+  url = "https://github.com/decke/"
 
 [[menu.main]]
   name = "Contact"

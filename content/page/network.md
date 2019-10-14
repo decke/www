@@ -27,10 +27,10 @@ The infrastructure for the network is designed for security and privacy and has 
 * VPN: [WireGuard](https://wireguard.com/)
 * Virtualisation: [bhyve](http://bhyve.org/) via [vm-bhyve](https://github.com/churchers/vm-bhyve)
 * Webserver: [nginx](https://nginx.org/)
-* Backup: [ssbt](https://code.bluelife.at/decke/ssbt/)
+* Backup: [ssbt](https://github.com/decke/ssbt/)
 * NTP: [chrony](https://chrony.tuxfamily.org/)
 * Firewall: [pf](https://www.freebsd.org/doc/handbook/firewalls-pf.html)
-* SMTP: [smtprelay](https://code.bluelife.at/decke/smtprelay)
+* SMTP: [smtprelay](https://github.com/decke/smtprelay)
 
 
 ## Hardware
@@ -42,7 +42,6 @@ The infrastructure for the network is designed for security and privacy and has 
 
 ## Services
 
-* Code: [gitea](https://gitea.io/)
 * Feed Reader: [miniflux](https://miniflux.app/)
 * File sync: [syncthing](https://syncthing.net/)
 * Contacts/Calendar: [radicale](https://radicale.org/)

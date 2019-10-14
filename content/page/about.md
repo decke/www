@@ -21,11 +21,11 @@ description: "my projects and contributions"
 
 
 ## Projects
-* **2019:** [caronade](https://code.bluelife.at/decke/caronade) - A small and light tool to help with FreeBSD Ports CI
-* **2018:** [smtprelay](https://code.bluelife.at/decke/smtprelay) - Simple Golang SMTP relay/proxy server
-* **2018:** [ssbt](https://code.bluelife.at/decke/ssbt) - Simple Stupid Backup Tool
+* **2019:** [caronade](https://github.com/decke/caronade) - A small and light tool to help with FreeBSD Ports CI
+* **2018:** [smtprelay](https://github.com/decke/smtprelay) - Simple Golang SMTP relay/proxy server
+* **2018:** [ssbt](https://github.com/decke/ssbt) - Simple Stupid Backup Tool
 * **2015:** [redports 2](https://github.com/freebsd/redports) - Rewrite/New implementation
-* **2014:** [drmdecrypt](https://code.bluelife.at/decke/drmdecrypt) - Decryption tool for Samsung TVs
+* **2014:** [drmdecrypt](https://github.com/decke/drmdecrypt) - Decryption tool for Samsung TVs
 * **2011 - 2014:** [redports.org](https://github.com/freebsd/redports-1) - FreeBSD port building cluster, Ports QAT, Concept/Implementation
 * **2011 - 2017:** [bsdstammtisch.at](https://bsdstammtisch.at) - Grazer BSD Stammtisch
 * **since 2010:** [freebsd.org](https://www.freebsd.org) - FreeBSD Ports Committer and Ports Maintainer
@@ -53,5 +53,5 @@ Over time I have created quite a few new FreeBSD Ports and worked on many more s
 
 ## Code
 
-* [code.bluelife.at/decke](https://code.bluelife.at/decke)
+* [github.com/decke](https://github.com/decke)
 * [github.com/decke](https://github.com/decke/)
