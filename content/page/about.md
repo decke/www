@@ -36,7 +36,7 @@ description: "my projects and contributions"
 
 ## FreeBSD Ports Contributions
 
-Over time I have created quite a few new FreeBSD Ports and worked on many more so these are just my major contributions. Overall I have done **[>550 commits](https://www.freshports.org/search.php?stype=committer&method=exact&query=decke)** and currently **[maintain 15 ports](https://portscout.freebsd.org/decke@freebsd.org.html)**.
+Over time I have created quite a few new FreeBSD Ports and worked on many more so these are just my major contributions. Overall I have done **[>600 commits](https://www.freshports.org/search.php?stype=committer&method=exact&query=decke)** and currently **[maintain 16 ports](https://portscout.freebsd.org/decke@freebsd.org.html)**.
 
 * **since 2018:** [net/wireguard](https://freshports.org/net/wireguard)
 * **since 2013:** [multimedia/tvheadend](https://freshports.org/multimedia/tvheadend), [upstream commits](https://github.com/tvheadend/tvheadend/commits?author=decke)
