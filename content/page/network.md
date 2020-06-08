@@ -14,6 +14,7 @@ The infrastructure for the network is designed for security and privacy and has 
 
 * Registrar: [Gandi.net](https://www.gandi.net/)
 * auth. DNS: [Google Cloud DNS](https://cloud.google.com/dns/) + DNSSEC
+* DNS as code: [DNSControl](https://stackexchange.github.io/dnscontrol/)
 * DNS resolver: [Unbound](https://www.unbound.net/) + [Stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby)
 * SSL Certs: [Let's Encrypt](https://letsencrypt.org/) via [acme.sh](https://acme.sh)
 
