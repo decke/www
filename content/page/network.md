@@ -47,4 +47,4 @@ The infrastructure for the network is designed for security and privacy and has 
 * Feed Reader: [miniflux](https://miniflux.app/)
 * File sync: [syncthing](https://syncthing.net/)
 * Contacts/Calendar: [radicale](https://radicale.org/)
-* Web/Blog: [Hugo](https://gohugo.io/)
+* Web/Blog: [Hugo](https://gohugo.io/) and [Coder](https://github.com/luizdepra/hugo-coder/)

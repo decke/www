@@ -1,13 +1,32 @@
-baseurl = "https://www.bluelife.at/"
-languageCode = "en-US"
+baseurl = "https://contacts.bluelife.at"
 title = "bluelife"
-theme = "natrium"
-preserveTaxonomyNames = true
-rssLimit = 10
-paginate = 10
-pygmentsCodefences = true
-pygmentsStyle = "native"
+theme = "coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
 
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Bernhard Fröhlich"
+    info = "Software developer and full time geek"
+    description = "Personal blog of a Software developer and full time geek"
+    keywords = "blog,personal"
+    avatarurl = "/images/decke.jpeg"
+
+    favicon_32 = "/favicon.png"
+    footercontent = "<a href=\"/index.xml\">RSS Feed</a> / <a href=\"/contact/#privacy\">Privacy Policy</a> /  Powered by <a href=\"https://gohugo.io/\">Hugo</a> & <a href=\"https://github.com/luizdepra/hugo-coder/\">Coder</a>"
+
+    hidecredits = true
+    hidecopyright = true
+    rtl = false
+    math = false
+
+# Posts
 [taxonomies]
   category = "categories"
   tag = "tags"
@@ -16,48 +35,34 @@ pygmentsStyle = "native"
   posts = "/:slug/"
   page = "/:slug/"
 
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/decke/"
+
+# Menu links
 [[menu.main]]
-  name = "Network"
-  weight = -120
-  identifier = "network"
-  url = "/network/"
-
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
 [[menu.main]]
-  name = "Code"
-  weight = -110
-  identifier = "code"
-  url = "https://github.com/decke/"
-
+    name = "Network"
+    weight = 2
+    identifier = "network"
+    url = "/network/"
 [[menu.main]]
-  name = "Contact"
-  weight = -100
-  identifier = "contact"
-  url = "/contact/"
-
+    name = "Code"
+    weight = 3
+    identifier = "code"
+    url = "https://github.com/decke/"
 [[menu.main]]
-  name = "About"
-  weight = -90
-  identifier = "about"
-  url = "/about/"
-
-[params]
-  description = ""
-
-  [params.logo]
-  url = "bluelife_logo.png"
-  alt = "Logo"
-
-[mediaTypes]
-  [mediaTypes."text/netlify"]
-    suffixes = []
-    delimiter = ""
-
-[outputs]
-  home = [ "HTML", "RSS", "HEADERS" ]
-
-[outputFormats]
-  [outputFormats.HEADERS]
-    mediatype = "text/netlify"
-    baseName = "_headers"
-    isPlainText = true
-    notAlternative = true
+    name = "Contact"
+    weight = 4
+    identifier = "contact"
+    url = "/contact/"
+[[menu.main]]
+    name = "About"
+    weight = 5
+    url = "/about/"
