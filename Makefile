@@ -6,6 +6,6 @@ clean:
 
 deploy:
 	git submodule update --init themes/coder
-	hugo -b $(URL) --gc
+	hugo -b $(URL) --minify
 
 .PHONY:	build clean deploy
