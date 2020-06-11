@@ -1,7 +1,17 @@
 [build]
 publish = "public"
-command = "hugo --gc"
+command = "make deploy"
 
 [context.production.environment]
 HUGO_VERSION = "0.72.0"
 HUGO_ENV = "production"
+
+[[headers]]
+  for ="/*"
+
+  [headers.values]
+    X-Frame-Options: DENY
+    X-XSS-Protection: 1; mode=block
+    X-Content-Type-Options: nosniff
+    Referrer-Policy: no-referrer
+    Content-Security-Policy: default-src 'none'; font-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'
