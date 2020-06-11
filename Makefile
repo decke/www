@@ -1,11 +1,11 @@
 build:
-	hugo --gc
+	hugo
 
 clean:
 	rm -rf public/* resources/*
 
 deploy:
 	git submodule update --init themes/coder
-	hugo -b $(URL) --minify
+	hugo -b $(URL)
 
 .PHONY:	build clean deploy
