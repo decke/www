@@ -24,7 +24,7 @@
       {{ $styles := resources.Get "scss/coder.scss" | resources.ExecuteAsTemplate "style.coder.css" . | toCSS $cssOpts }}
       <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
     {{ else }}
-      {{ $cssOpts := (dict "targetPath" "css/coder.css" "outputStyle" "compressed" ) }}
+      {{ $cssOpts := (dict "targetPath" "css/coder.css" "outputStyle" "compact" ) }}
       {{ $styles := resources.Get "scss/coder.scss" | resources.ExecuteAsTemplate "style.coder.css" . | toCSS $cssOpts | fingerprint }}
       <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" media="screen" />
     {{ end }}
