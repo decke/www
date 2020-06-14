@@ -35,13 +35,6 @@ pygmentscodefencesguesssyntax = true
   posts = "/:slug/"
   page = "/:slug/"
 
-# Social links
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/decke/"
-
 # Menu links
 [[menu.main]]
     name = "Blog"
