@@ -13,7 +13,7 @@ description: "my projects and contributions"
                 
 ## Timeline
 * **2012 - 2015:** [FreeBSD Ports Management Team](https://www.freebsd.org/portmgr/)
-* **since May 2010:** [BSDA Certified](http://www.bsdcertification.org/)
+* **May 2010:** [BSDA Certification](https://www.lpi.org/verify/LPI000397377/u5h24egzqd)
 * **since March 2010:** [FreeBSD Ports Committer](http://www.freebsd.org/news/newsflash.html#event20100331:01)
 * **since Oct. 2005:** [BT-Anlagenbau](http://www.ece-log.at), Senior software developer
 * **2004-2005:** Civilian  service
