@@ -204,15 +204,10 @@ img.emoji {
 
 /* customizations */
 .icon {
-  width: 1.6rem;
-  height: 1.6rem;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  fill: none;
   display: inline-block;
   position: relative;
+  top: .5rem;
+  margin: 0 .5rem 0 .5rem;
 }
 
 .navigation-title img {
