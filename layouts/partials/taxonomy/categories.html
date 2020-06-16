@@ -1,5 +1,7 @@
 <div class="categories">
-  <i class="icon icon-folder"></i>
+  <svg class="icon">
+    <use xlink:href="/icons/feather.svg#folder" />
+  </svg>
   {{- range $index, $el := . -}}
     {{- if gt $index 0 }}
       <span class="separator">•</span>

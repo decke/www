@@ -1,5 +1,7 @@
 <div class="tags">
-  <i class="icon icon-tag"></i>
+  <svg class="icon">
+    <use xlink:href="/icons/feather.svg#tag" />
+  </svg>
   {{- range $index, $el := . -}}
     {{- if gt $index 0 }}
       <span class="separator">•</span>
