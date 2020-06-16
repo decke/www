@@ -1,7 +1,5 @@
 <div class="categories">
-  <svg class="icon">
-    <image xlink:href="/icons/feather.svg#folder" />
-  </svg>
+  {{ partial "icons.html" "folder" }}
   {{- range $index, $el := . -}}
     {{- if gt $index 0 }}
       <span class="separator">•</span>

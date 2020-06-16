@@ -1,7 +1,5 @@
 <div class="tags">
-  <svg class="icon">
-    <image xlink:href="/icons/feather.svg#tag" />
-  </svg>
+  {{ partial "icons.html" "tag" }}
   {{- range $index, $el := . -}}
     {{- if gt $index 0 }}
       <span class="separator">•</span>
