@@ -19,7 +19,7 @@ pygmentscodefencesguesssyntax = true
     avatarurl = "/images/decke.jpeg"
 
     favicon_32 = "/favicon.png"
-    footercontent = "<a href=\"/index.xml\">RSS Feed</a> / <a href=\"/contact/#privacy\">Privacy Policy</a> /  Powered by <a href=\"https://gohugo.io/\">Hugo</a> & <a href=\"https://github.com/luizdepra/hugo-coder/\">Coder</a>"
+    footercontent = "<a href=\"/contact/#privacy\">Privacy Policy</a> | <a href=\"/index.xml\">RSS Feed</a>"
 
     hidecredits = true
     hidecopyright = true
