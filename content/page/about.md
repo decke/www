@@ -23,7 +23,6 @@ description: "my projects and contributions"
 
 ## Projects
 * **2020:** [nodeman](https://github.com/decke/nodeman) - Funkfeuer Node Manager
-* **2020:** [OpenWrt-ER10X](https://github.com/decke/openwrt-er10x) - OpenWRT port for Ubiquiti EdgeRouter 10X
 * **since 2019:** [caronade](https://github.com/decke/caronade) - A small and light tool to help with FreeBSD Ports CI
 * **since 2018:** [smtprelay](https://github.com/decke/smtprelay) - Simple Golang SMTP relay/proxy server
 * **2018:** [ssbt](https://github.com/decke/ssbt) - Simple Stupid Backup Tool
@@ -38,7 +37,7 @@ description: "my projects and contributions"
 
 ## FreeBSD Ports Contributions
 
-Over time I have created quite a few new FreeBSD Ports and worked on many more so these are just my major contributions. Overall I have done **[>600 commits](https://www.freshports.org/search.php?stype=committer&method=exact&query=decke)** and currently **[maintain 16 ports](https://portscout.freebsd.org/decke@freebsd.org.html)**.
+Over time I have created quite a few new FreeBSD Ports and worked on many more so these are just my major contributions. Overall I have done **[>600 commits](https://www.freshports.org/search.php?stype=committer&method=exact&query=decke)** and currently **[maintain >20 ports](https://portscout.freebsd.org/decke@freebsd.org.html)**.
 
 * **since 2018:** [net/wireguard](https://freshports.org/net/wireguard)
 * **since 2013:** [multimedia/tvheadend](https://freshports.org/multimedia/tvheadend), [upstream commits](https://github.com/tvheadend/tvheadend/commits?author=decke)
