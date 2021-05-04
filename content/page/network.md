@@ -47,7 +47,7 @@ Some parts of the network are in the cloud already and some are provided by exte
 
 ### External Services
 
-* Monitoring: [UptimeRobot](https://uptimerobot.com)
+* Monitoring: [UptimeRobot](https://stats.uptimerobot.com/l5P1gc4Yz)
 * Static Hosting: [netlify](https://www.netlify.com)
 * Code: [GitHub](https://github.com/decke)
 * CI/CD: [GitHub Actions](https://github.com/features/actions)
