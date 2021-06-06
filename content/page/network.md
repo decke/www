@@ -31,8 +31,8 @@ Some parts of the network are in the cloud already and some are provided by exte
 
 ### Hardware
 
-* Router: [Supermicro X10SBA](http://www.supermicro.com/products/motherboard/celeron/x10/x10sba.cfm) running [FreeBSD](https://www.freebsd.org/)
-* SoHo Router: [Ubiquiti EdgeRouter-X](https://www.ui.com/edgemax/edgerouter-x/) running [OpenWRT](https://openwrt.org)
+* Router: [NanoPi R4S](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S) running [FreeBSD](https://www.freebsd.org/)
+* Router: [Ubiquiti EdgeRouter X](https://www.ui.com/edgemax/edgerouter-x/) running [OpenWRT](https://openwrt.org)
 * WiFi: [Ubiquiti Unifi AP AC](https://www.ubnt.com/unifi/unifi-ap-ac-lr/) running [OpenWRT](https://openwrt.org/)
 * Switch: HPE 1920 Series
 
@@ -40,7 +40,6 @@ Some parts of the network are in the cloud already and some are provided by exte
 ## Services
 
 * Feed Reader: [miniflux](https://miniflux.app/)
-* File sync: [syncthing](https://syncthing.net/)
 * Contacts/Calendar: [radicale](https://radicale.org/)
 * Web/Blog: [Hugo](https://gohugo.io/) and [Coder](https://github.com/luizdepra/hugo-coder/)
 
