@@ -22,7 +22,7 @@ description: "my projects and contributions"
 
 
 ## Projects
-* **since July 2021:** FreeBSD on [NanoPi R4S](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S)
+* **since June 2021:** FreeBSD on [NanoPi R4S](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S)
 * **2020:** [nodeman](https://github.com/decke/nodeman) - Funkfeuer Node Manager
 * **since 2019:** [caronade](https://github.com/decke/caronade) - A small and light tool to help with FreeBSD Ports CI
 * **since 2018:** [smtprelay](https://github.com/decke/smtprelay) - Simple Golang SMTP relay/proxy server
