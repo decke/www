@@ -42,7 +42,7 @@ freies Gerät zu betreiben das einen nicht andauernd überwacht. Bisher
 habe ich es zumindest soweit geschafft, dass [LineageOS](https://www.lineageos.org/)
 auf meinem Nexus 5X läuft. Apps kommen vorwiegend von [F-Droid](https://www.f-droid.org/)
 und für Konakte und Kalender betreibe ich meinen eigenen [Radicale](https://radicale.org)
-Server. Alle Apps die ich verwende speichern ihre Daten lokal am Geröt und mit
+Server. Alle Apps die ich verwende speichern ihre Daten lokal am Gerät und mit
 [syncthing](https://syncthing.net/) wird das dann regelmäßig nach Hause gesichert.
 
 Statt Chrome kommt natürlich wieder Fennec zum Einsatz und [Signal](https://signal.org/)
