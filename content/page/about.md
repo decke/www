@@ -12,7 +12,7 @@ description: "my projects and contributions"
 
                 
 ## Timeline
-* **since August 2020:** [Funkfeuer Graz](https://graz.funkfeuer.at/)
+* **2020:** [Funkfeuer Graz](https://graz.funkfeuer.at/)
 * **2012 - 2015:** [FreeBSD Ports Management Team](https://www.freebsd.org/portmgr/)
 * **May 2010:** [BSDA Certification](https://www.lpi.org/verify/LPI000397377/u5h24egzqd)
 * **since March 2010:** [FreeBSD Ports Committer](http://www.freebsd.org/news/newsflash.html#event20100331:01)
@@ -22,7 +22,8 @@ description: "my projects and contributions"
 
 
 ## Projects
-* **since June 2021:** FreeBSD on [NanoPi R4S](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S)
+* **2021:** [chkcpe](https://github.com/decke/chkcpe) - Improve CPE data in the FreeBSD portstree
+* **2021:** FreeBSD on [NanoPi R4S](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S)
 * **2020:** [nodeman](https://github.com/decke/nodeman) - Funkfeuer Node Manager
 * **since 2019:** [caronade](https://github.com/decke/caronade) - A small and light tool to help with FreeBSD Ports CI
 * **since 2018:** [smtprelay](https://github.com/decke/smtprelay) - Simple Golang SMTP relay/proxy server
@@ -38,7 +39,7 @@ description: "my projects and contributions"
 
 ## FreeBSD Ports Contributions
 
-Over time I have created quite a few new FreeBSD Ports and worked on many more so these are just my major contributions. Overall I have done **[>700 commits](https://www.freshports.org/search.php?stype=committer&method=exact&query=decke)** and currently **[maintain >20 ports](https://portscout.freebsd.org/decke@freebsd.org.html)**.
+Over time I have created quite a few new FreeBSD Ports and worked on many more so these are just my major contributions. Overall I have done **[>1900 commits](https://www.freshports.org/search.php?stype=committer&method=exact&query=decke)** and currently **[maintain >20 ports](https://portscout.freebsd.org/decke@freebsd.org.html)**.
 
 * **since 2018:** [net/wireguard](https://freshports.org/net/wireguard)
 * **since 2013:** [multimedia/tvheadend](https://freshports.org/multimedia/tvheadend), [upstream commits](https://github.com/tvheadend/tvheadend/commits?author=decke)
