@@ -26,8 +26,9 @@ Some parts of the network are in the cloud already and some are provided by exte
 * Firewall: [pf](https://www.freebsd.org/doc/handbook/firewalls-pf.html)
 * Backup: [ssbt](https://github.com/decke/ssbt/)
 * SMTP: [smtprelay](https://github.com/decke/smtprelay)
+* DNS: [unbound](https://www.nlnetlabs.nl/projects/unbound/about/)
 * NTP: [chrony](https://chrony.tuxfamily.org/)
-* OAuth: [vouch-proxy](https://github.com/vouch/vouch-proxy)
+* SSO: [authelia](https://github.com/authelia/authelia)
 
 
 ### Hardware
@@ -47,8 +48,8 @@ Some parts of the network are in the cloud already and some are provided by exte
 
 ### External Services
 
-* Monitoring: [UptimeRobot](https://status.bluelife.at)
-* Static Hosting: [netlify](https://www.netlify.com)
 * Code: [GitHub](https://github.com/decke)
 * CI/CD: [GitHub Actions](https://github.com/features/actions)
-* E-Mail: [Google Mail](https://google.com/gmail/)
+* E-Mail: [Zoho Mail](https://www.zoho.com/mail/)
+* Monitoring: [UptimeRobot](https://status.bluelife.at)
+* Static Hosting: [netlify](https://www.netlify.com)
