@@ -33,7 +33,7 @@ Some parts of the network are in the cloud already and some are provided by exte
 
 ### Hardware
 
-* Router: [NanoPi R4S](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S) running [FreeBSD](https://www.freebsd.org/)
+* Router: [NanoPi R4S](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S) running [OpenWRT](https://openwrt.org)
 * Router: [Ubiquiti EdgeRouter X](https://www.ui.com/edgemax/edgerouter-x/) running [OpenWRT](https://openwrt.org)
 * WiFi: [Ubiquiti Unifi AP AC](https://www.ubnt.com/unifi/unifi-ap-ac-lr/) running [OpenWRT](https://openwrt.org/)
 * Switch: HPE 1920 Series
