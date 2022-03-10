@@ -3,8 +3,9 @@ title: Network
 description: "bluelife network"
 ---
 
-The bluelife.at network is over 15 years old and it's current architecture is the result of many lessions learned. It is build with carefully chosen SoHo equipment to be able to run [FreeBSD](https://www.freebsd.org/) and [OpenWRT](https://openwrt.org/) on it and maintain a low power consumption. The architecture and all software components were designed and configured with security and privacy in mind.
+The bluelife.at network is over 15 years old and it's current architecture is the result of many lessions learned. It is build with carefully chosen hardware to maintain a low power consumption. The architecture and all software components were designed and configured with security and privacy in mind.
 Some parts of the network are in the cloud already and some are provided by external services but the aim is to have all important data and services locally available.
+
 
 ## Architecture
 
@@ -13,8 +14,7 @@ Some parts of the network are in the cloud already and some are provided by exte
 
 ### Infrastructure
 
-* IPv6: [Hurricane Electric](https://ipv6.he.net/)
-* Hosting: [netcup](https://www.netcup.de/)
+* Hosting: [alwyzon](https://www.alwyzon.com/)
 * OS: [FreeBSD](https://www.freebsd.org/), [OpenWRT](https://openwrt.org/) and [Alpine Linux](https://alpinelinux.org/)
 * VPN: [WireGuard](https://wireguard.com/)
 * Virtualisation: [bhyve](http://bhyve.org/) via [vm-bhyve](https://github.com/churchers/vm-bhyve)
@@ -23,7 +23,6 @@ Some parts of the network are in the cloud already and some are provided by exte
 
 ### Infrastructure Tools
 
-* Firewall: [pf](https://www.freebsd.org/doc/handbook/firewalls-pf.html)
 * Backup: [ssbt](https://github.com/decke/ssbt/)
 * SMTP: [smtprelay](https://github.com/decke/smtprelay)
 * DNS: [unbound](https://www.nlnetlabs.nl/projects/unbound/about/)
@@ -36,7 +35,6 @@ Some parts of the network are in the cloud already and some are provided by exte
 * Router: [NanoPi R4S](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S) running [OpenWRT](https://openwrt.org)
 * Router: [Ubiquiti EdgeRouter X](https://www.ui.com/edgemax/edgerouter-x/) running [OpenWRT](https://openwrt.org)
 * WiFi: [Ubiquiti Unifi AP AC](https://www.ubnt.com/unifi/unifi-ap-ac-lr/) running [OpenWRT](https://openwrt.org/)
-* Switch: HPE 1920 Series
 
 
 ## Services
