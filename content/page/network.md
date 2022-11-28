@@ -51,3 +51,4 @@ Some parts of the network are in the cloud already and some are provided by exte
 * E-Mail: [Zoho Mail](https://www.zoho.com/mail/)
 * Monitoring: [UptimeRobot](https://status.bluelife.at)
 * Static Hosting: [netlify](https://www.netlify.com)
+
