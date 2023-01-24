@@ -49,7 +49,7 @@ pygmentscodefencesguesssyntax = true
     name = "Code"
     weight = 3
     identifier = "code"
-    url = "https://github.com/decke/"
+    url = "https://codeberg.org/decke"
 [[menu.main]]
     name = "Contact"
     weight = 4

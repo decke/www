@@ -66,7 +66,7 @@ hinkriegen sollten. Mit Kodi und den dazugehörigen Plugins sollte da für jeden
 was dabei sein.
 
 Meinen Samsung SmartTV habe ich zumindest soweit erobert, dass ich seine verschlüsselten
-[Aufnahmen entschlüsseln](https://github.com/decke/drmdecrypt) kann und
+[Aufnahmen entschlüsseln](https://codeberg.org/decke/drmdecrypt) kann und
 ins Netzwerk darf er auch nicht.
 
 Drucker haben wir sicher auch alle einen herumstehen aber da kenne ich nicht einmal

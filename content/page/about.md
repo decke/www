@@ -12,7 +12,7 @@ description: "my projects and contributions"
 
                 
 ## Timeline
-* **2020:** [Funkfeuer Graz](https://graz.funkfeuer.at/)
+* **2020:** [Funkfeuer Graz](https://graz.funkfeuer.at)
 * **2012 - 2015:** [FreeBSD Ports Management Team](https://www.freebsd.org/portmgr/)
 * **May 2010:** [BSDA Certification](https://www.lpi.org/verify/LPI000397377/u5h24egzqd)
 * **since March 2010:** [FreeBSD Ports Committer](http://www.freebsd.org/news/newsflash.html#event20100331:01)
@@ -22,14 +22,16 @@ description: "my projects and contributions"
 
 
 ## Projects
+* **since 2022:** [iot.dashboard](https://codeberg.org/decke/iot.dashboard) - IoT MQTT Dashboard
+* **2022:** [temp2mqtt-esp32](https://codeberg.org/decke/temp2mqtt-esp32) - Temperature from DS18B20 to MQTT (ESP32)
 * **2021:** [chkcpe](https://github.com/decke/chkcpe) - Improve CPE data in the FreeBSD portstree
 * **2021:** FreeBSD on [NanoPi R4S](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S)
-* **2020:** [nodeman](https://github.com/decke/nodeman) - Funkfeuer Node Manager
-* **since 2019:** [caronade](https://github.com/decke/caronade) - A small and light tool to help with FreeBSD Ports CI
+* **2020:** [nodeman](https://codeberg.org/decke/nodeman) - Funkfeuer Node Manager
+* **since 2019:** [caronade](https://codeberg.org/decke/caronade) - A small and light tool to help with FreeBSD Ports CI
 * **since 2018:** [smtprelay](https://github.com/decke/smtprelay) - Simple Golang SMTP relay/proxy server
-* **2018:** [ssbt](https://github.com/decke/ssbt) - Simple Stupid Backup Tool
+* **2018:** [ssbt](https://codeberg.org/decke/ssbt) - Simple Stupid Backup Tool
 * **2015:** [redports 2](https://github.com/freebsd/redports) - Rewrite/New implementation
-* **2014:** [drmdecrypt](https://github.com/decke/drmdecrypt) - Decryption tool for Samsung TVs
+* **2014:** [drmdecrypt](https://codeberg.org/decke/drmdecrypt) - Decryption tool for Samsung TVs
 * **2011 - 2014:** [redports.org](https://github.com/freebsd/redports-1) - FreeBSD port building cluster, Ports QAT, Concept/Implementation
 * **2011 - 2017:** [bsdstammtisch.at](https://bsdstammtisch.at) - Grazer BSD Stammtisch
 * **since 2010:** [freebsd.org](https://www.freebsd.org) - FreeBSD Ports Committer and Ports Maintainer
@@ -50,11 +52,13 @@ Over time I have created quite a few new FreeBSD Ports and worked on many more s
 
 
 ## Other Contributions
+* [jarijokinen/ruuvi-gw-esp32](https://github.com/jarijokinen/ruuvi-gw-esp32): Various improvements and fixes
 * [Composer](https://github.com/composer/composer/commit/70314f3570247ce9a62934997ea449ec44cd635b): Fix Repository support  for Subversion 1.8 (2017)
 * [Helma](https://github.com/helma-org/helma): update for Jetty 6.1.x (2009)
-* [cpupowerd](http://cpupowerd.sourceforge.net/): FreeBSD support and port (2008)
+* [cpupowerd](http://cpupowerd.sourceforge.net): FreeBSD support and port (2008)
 * more contributions on [openhub.net/accounts/decke](https://www.openhub.net/accounts/decke)
 
 ## Code
 
-* [github.com/decke](https://github.com/decke/)
+* [codeberg.org/decke](https://codeberg.org/decke)
+* [github.com/decke](https://github.com/decke)
