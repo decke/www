@@ -34,7 +34,7 @@ Some parts of the network are in the cloud already and some are provided by exte
 
 * Router: [NanoPi R4S](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R4S) running [OpenWRT](https://openwrt.org)
 * Router: [Ubiquiti EdgeRouter X](https://www.ui.com/edgemax/edgerouter-x/) running [OpenWRT](https://openwrt.org)
-* WiFi: [Ubiquiti Unifi AP AC](https://www.ubnt.com/unifi/unifi-ap-ac-lr/) running [OpenWRT](https://openwrt.org)
+* WiFi: [Ubiquiti U6+](https://openwrt.org/toh/ubiquiti/unifi_6_plus) running [OpenWRT](https://openwrt.org)
 
 
 ## Services
