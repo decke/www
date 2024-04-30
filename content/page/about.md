@@ -7,7 +7,7 @@ description: "my projects and contributions"
 ## Spare Time
 * My family and my two kids
 * Network Infrastructure
-* Programming (C/C++, PHP, Go, Shell script, Makefile, JS/Java, Python)
+* Programming (C, PHP, Go, Shell script, Makefile, Python, JS/Java)
 * FreeBSD Ports
 
                 
