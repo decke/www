@@ -12,7 +12,6 @@ description: "my projects and contributions"
 
                 
 ## Timeline
-* **2020:** [Funkfeuer Graz](https://graz.funkfeuer.at)
 * **2012 - 2015:** [FreeBSD Ports Management Team](https://www.freebsd.org/portmgr/)
 * **May 2010:** [BSDA Certification](https://www.lpi.org/verify/LPI000397377/u5h24egzqd)
 * **since March 2010:** [FreeBSD Ports Committer](http://www.freebsd.org/news/newsflash.html#event20100331:01)
