@@ -40,9 +40,10 @@ description: "my projects and contributions"
 
 ## FreeBSD Ports Contributions
 
-Over time I have created quite a few new FreeBSD Ports and worked on many more so these are just my major contributions. Overall I have done **[>2000 commits](https://www.freshports.org/search.php?stype=committer&method=exact&query=decke)** and currently **[maintain >20 ports](https://portscout.freebsd.org/decke@freebsd.org.html)**.
+Over time I have created quite a few new FreeBSD Ports and worked on many more so these are just my major contributions. Overall I have done **[>2400 commits](https://www.freshports.org/search.php?stype=committer&method=exact&query=decke)** and currently **[maintain >30 ports](https://portscout.freebsd.org/decke@freebsd.org.html)**.
 
-* **since 2018:** [net/wireguard](https://freshports.org/net/wireguard)
+* **since 2025:** [sysutils/fwupd](https://freshports.org/sysutils/fwupd)
+* **2018 - 2025:** [net/wireguard](https://freshports.org/net/wireguard)
 * **since 2013:** [multimedia/tvheadend](https://freshports.org/multimedia/tvheadend), [upstream commits](https://github.com/tvheadend/tvheadend/commits?author=decke)
 * **2010 - 2017:** [www/phpvirtualbox](https://freshports.org/www/phpvirtualbox)
 * **2010 - 2016:** [emulators/virtualbox-ose](https://freshports.org/emulators/virtualbox-ose)
